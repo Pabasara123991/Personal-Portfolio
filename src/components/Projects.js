@@ -81,7 +81,7 @@ export default function Projects() {
                         <img src={shopping} alt="Shopping" />
                         <div className='layer'>
                             <h3>Westminster Shopping Center</h3>
-                            <p>This project showcases an online shopping system with two interfaces, a console system for product management in addition, deletion, printing, and saving and a GUI for browsing products, adding them to a cart, and viewing dynamic total prices.</p>
+                            <p>This project features an online shopping system with two interfaces: a console for managing products and a GUI for browsing products, adding them to a cart, and viewing dynamic total prices.</p>
                             <p>
                                 <span style={{ color: '#0096FF' }}>#Java</span>&nbsp;
                                 <span style={{ color: '#0096FF' }}>#Swing</span>&nbsp;
