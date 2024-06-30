@@ -34,7 +34,7 @@ export const Banner = () => {
       setLoopNum(loopNum + 1);
       setDelta(500);
     }
-  }, [loopNum, isDeleting, text, delta, period, toRotate]); 
+  }, [loopNum, isDeleting, text, toRotate]); // Removed delta from dependency array
 
   useEffect(() => {
     let ticker = setInterval(() => {
